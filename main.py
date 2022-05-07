@@ -38,7 +38,7 @@ X = iris.data
 Y = iris.target
 
 clf = RandomForestClassifier()
-clf.fit(X, y)
+clf.fit(X, Y)
 
 prediction = clf.predict(df)
 prediction_probability = clf.predict_proba(df)
